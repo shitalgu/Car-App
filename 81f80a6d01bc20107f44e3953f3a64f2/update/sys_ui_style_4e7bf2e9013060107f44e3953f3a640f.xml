@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_style">
+    <sys_ui_style action="INSERT_OR_UPDATE">
+        <alt/>
+        <element>car_type</element>
+        <name>x_cdltd_car_hire_car_hire</name>
+        <style>background-color:red;&#13;
+color:blue;</style>
+        <sys_class_name>sys_ui_style</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-30 15:38:05</sys_created_on>
+        <sys_id>4e7bf2e9013060107f44e3953f3a640f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_cdltd_car_hire_car_hire</sys_name>
+        <sys_package display_value="Car Hire Management" source="x_cdltd_car_hire">81f80a6d01bc20107f44e3953f3a64f2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Car Hire Management">81f80a6d01bc20107f44e3953f3a64f2</sys_scope>
+        <sys_update_name>sys_ui_style_4e7bf2e9013060107f44e3953f3a640f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-30 15:38:05</sys_updated_on>
+        <value>suv</value>
+    </sys_ui_style>
+    <sys_translated_text action="delete_multiple" query="documentkey=4e7bf2e9013060107f44e3953f3a640f"/>
+</record_update>

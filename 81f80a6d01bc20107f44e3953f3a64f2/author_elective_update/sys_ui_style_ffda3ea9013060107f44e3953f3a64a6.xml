@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_style">
+    <sys_ui_style action="DELETE">
+        <alt/>
+        <element>number</element>
+        <name>x_cdltd_car_hire_car_hire</name>
+        <style>background-color:yellow;&#13;
+color:green;&#13;
+text-align:center;&#13;
+</style>
+        <sys_class_name>sys_ui_style</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-30 15:36:19</sys_created_on>
+        <sys_id>ffda3ea9013060107f44e3953f3a64a6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_cdltd_car_hire_car_hire</sys_name>
+        <sys_package display_value="Car Hire Management" source="x_cdltd_car_hire">81f80a6d01bc20107f44e3953f3a64f2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Car Hire Management">81f80a6d01bc20107f44e3953f3a64f2</sys_scope>
+        <sys_update_name>sys_ui_style_ffda3ea9013060107f44e3953f3a64a6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-30 15:36:19</sys_updated_on>
+        <value/>
+    </sys_ui_style>
+    <sys_translated_text action="DELETE" query="documentkey=ffda3ea9013060107f44e3953f3a64a6"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Car Hire Management">81f80a6d01bc20107f44e3953f3a64f2</application>
+        <file_path/>
+        <instance_id>eeff9fcd1b30a850d676c99f034bcb92</instance_id>
+        <instance_name>adf-nov-850-dev-001-instructor</instance_name>
+        <name>sys_ui_style_ffda3ea9013060107f44e3953f3a64a6</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_style"><sys_ui_style action="INSERT_OR_UPDATE"><alt/><element>number</element><name>x_cdltd_car_hire_car_hire</name><style>background-color:yellow;&#13;
+color:green;&#13;
+text-align:center;&#13;
+</style><sys_class_name>sys_ui_style</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-11-30 15:36:19</sys_created_on><sys_id>ffda3ea9013060107f44e3953f3a64a6</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_cdltd_car_hire_car_hire</sys_name><sys_package display_value="Car Hire Management" source="x_cdltd_car_hire">81f80a6d01bc20107f44e3953f3a64f2</sys_package><sys_policy/><sys_scope display_value="Car Hire Management">81f80a6d01bc20107f44e3953f3a64f2</sys_scope><sys_update_name>sys_ui_style_ffda3ea9013060107f44e3953f3a64a6</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-11-30 15:36:19</sys_updated_on><value/></sys_ui_style><sys_translated_text action="delete_multiple" query="documentkey=ffda3ea9013060107f44e3953f3a64a6"/></record_update>]]></payload>
+        <payload_hash>-1223789256</payload_hash>
+        <record_name>x_cdltd_car_hire_car_hire</record_name>
+        <reverted_from/>
+        <source>cfa32e2d01fc20107f44e3953f3a6410</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-30 15:36:20</sys_created_on>
+        <sys_id>242bbea9013060107f44e3953f3a64c8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17619cc2d230000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-30 15:36:20</sys_updated_on>
+        <type>Style</type>
+        <update_guid>6c2bbea9e1306010842bec1b9ee106c7</update_guid>
+        <update_guid_history>6c2bbea9e1306010842bec1b9ee106c7:-1223789256</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-01 08:14:58</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_style">sys_ui_style</sys_db_object>
+        <sys_id>2c0323c74c8a47fa895ce764161b5281</sys_id>
+        <sys_metadata>ffda3ea9013060107f44e3953f3a64a6</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_cdltd_car_hire_car_hire</sys_name>
+        <sys_package display_value="Car Hire Management" source="x_cdltd_car_hire">81f80a6d01bc20107f44e3953f3a64f2</sys_package>
+        <sys_parent display_value="Car Hire">0b1b0ead01bc20107f44e3953f3a6460</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Car Hire Management">81f80a6d01bc20107f44e3953f3a64f2</sys_scope>
+        <sys_scope_delete display_value="">5b9fdd9e447e40b4a5ca083d0510dce1</sys_scope_delete>
+        <sys_update_name>sys_ui_style_ffda3ea9013060107f44e3953f3a64a6</sys_update_name>
+        <sys_update_version display_value="sys_ui_style_ffda3ea9013060107f44e3953f3a64a6">242bbea9013060107f44e3953f3a64c8</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-01 08:14:58</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

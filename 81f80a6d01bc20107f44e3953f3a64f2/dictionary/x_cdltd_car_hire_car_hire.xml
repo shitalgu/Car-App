@@ -1,16 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element extends="task" label="Car Hire" max_length="40" name="x_cdltd_car_hire_car_hire" type="collection">
         <element choice="1" label="Brand Name" max_length="40" name="brand_name" type="choice">
-            <choice/>
+            <choice>
+                <element inactive_on_update="false" label="BMW" sequence="0" value="bmw"/>
+                <element inactive_on_update="false" label="Volkswagen" sequence="1" value="volkswagen"/>
+                <element inactive_on_update="false" label="Hyundai" sequence="2" value="hyundai"/>
+            </choice>
         </element>
         <element choice="1" label="Car Name" max_length="40" name="car_name" type="choice">
-            <choice/>
+            <choice>
+                <element inactive_on_update="false" label="Creta" value="creta"/>
+                <element inactive_on_update="false" label="Ventro" value="ventro"/>
+                <element inactive_on_update="false" label="BMW 5 Series" sequence="0" value="bmw_5"/>
+                <element inactive_on_update="false" label="BMW 3 Series" sequence="1" value="bmw_3"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Car Type" max_length="40" name="car_type" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Hatchback" sequence="0" value="hatchback"/>
+                <element inactive_on_update="false" label="Sedan" sequence="1" value="sedan"/>
+                <element inactive_on_update="false" label="SUV" sequence="2" value="suv"/>
+            </choice>
         </element>
         <element choice="1" label="Color" max_length="40" name="color" type="choice">
-            <choice/>
+            <choice>
+                <element inactive_on_update="false" label="Black" value="black"/>
+                <element inactive_on_update="false" label="Red" value="red"/>
+                <element inactive_on_update="false" label="White" value="white"/>
+            </choice>
         </element>
+        <element label="Contact Number" max_length="40" name="contact_number" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Drop Off Time" max_length="40" name="drop_off_time" type="glide_date_time"/>
         <element attributes="encode_utf8=false" label="Hirer Name" max_length="32" name="hirer_name" reference="sys_user" type="reference"/>
-        <element attributes="edge_encryption_enabled=true" label="Pick Up Time" max_length="40" name="pick_up_time" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="Location to be used" max_length="40" name="location_to_be_used" type="string"/>
+        <element attributes="edge_encryption_enabled=true" hint="Please provide the time of your pickup" label="Pick Up Time" max_length="40" name="pick_up_time" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Travelling Type" max_length="40" name="type" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Round Trip" sequence="0" value="round trip"/>
+                <element inactive_on_update="false" label="Ride Now within city" sequence="1" value="ride now within city"/>
+                <element inactive_on_update="false" label="One-Way" sequence="2" value="one-way"/>
+            </choice>
+        </element>
     </element>
 </database>

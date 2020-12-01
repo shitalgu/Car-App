@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="08e932a9013060107f44e3953f3a64d7" sys_domain="global" table="x_cdltd_car_hire_car_hire" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-11-30 15:30:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9ce932a9013060107f44e3953f3a64da</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_cdltd_car_hire_car_hire" name="x_cdltd_car_hire_car_hire" sys_domain="global" view="cf6643402d1210107f4442beff93c403">08e932a9013060107f44e3953f3a64d7</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_cdltd_car_hire_car_hire" sys_domain="global" view="cf6643402d1210107f4442beff93c403">d0f8f669013060107f44e3953f3a64be</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-11-30 15:30:51</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-11-30 15:30:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9ce932a9013060107f44e3953f3a64db</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_cdltd_car_hire_car_hire" name="x_cdltd_car_hire_car_hire" sys_domain="global" view="cf6643402d1210107f4442beff93c403">08e932a9013060107f44e3953f3a64d7</sys_ui_form>
+            <sys_ui_section caption="Select Your Car" display_value="Select Your Car" name="x_cdltd_car_hire_car_hire" sys_domain="global" view="cf6643402d1210107f4442beff93c403">00e932a9013060107f44e3953f3a64d6</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-11-30 15:30:51</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-11-30 15:31:50</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2a1ab2a9013060107f44e3953f3a64c2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_cdltd_car_hire_car_hire" name="x_cdltd_car_hire_car_hire" sys_domain="global" view="cf6643402d1210107f4442beff93c403">08e932a9013060107f44e3953f3a64d7</sys_ui_form>
+            <sys_ui_section caption="Hirer Information" display_value="Hirer Information" name="x_cdltd_car_hire_car_hire" sys_domain="global" view="cf6643402d1210107f4442beff93c403">a21ab2a9013060107f44e3953f3a64bf</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-11-30 15:31:50</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_cdltd_car_hire_car_hire</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-11-30 15:30:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>08e932a9013060107f44e3953f3a64d7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_cdltd_car_hire_car_hire</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Car Hire Management" source="x_cdltd_car_hire">81f80a6d01bc20107f44e3953f3a64f2</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Car Hire Management">81f80a6d01bc20107f44e3953f3a64f2</sys_scope>
+            <sys_update_name>sys_ui_form_sections_08e932a9013060107f44e3953f3a64d7</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-11-30 15:30:51</sys_updated_on>
+            <sys_user/>
+            <view display_value="Self Service" name="ess">cf6643402d1210107f4442beff93c403</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>
