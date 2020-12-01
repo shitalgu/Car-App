@@ -16,17 +16,17 @@
         <mobile_view_name>Mobile</mobile_view_name>
         <name>x_cdltd_car_hire_car_hire</name>
         <order>6</order>
-        <override_menu_roles>false</override_menu_roles>
+        <override_menu_roles>true</override_menu_roles>
         <query/>
         <report/>
-        <roles/>
+        <roles>x_cdltd_car_hire.user</roles>
         <sys_class_name>sys_app_module</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-11-30 12:07:21</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>134b8ead01bc20107f44e3953f3a64d8</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>All Car Hire Records</sys_name>
         <sys_overrides/>
         <sys_package display_value="Car Hire Management" source="x_cdltd_car_hire">81f80a6d01bc20107f44e3953f3a64f2</sys_package>
@@ -34,7 +34,7 @@
         <sys_scope display_value="Car Hire Management">81f80a6d01bc20107f44e3953f3a64f2</sys_scope>
         <sys_update_name>sys_app_module_134b8ead01bc20107f44e3953f3a64d8</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-11-30 13:44:35</sys_updated_on>
+        <sys_updated_on>2020-12-01 11:45:14</sys_updated_on>
         <timeline_page/>
         <title>All Car Hire Records</title>
         <uncancelable>false</uncancelable>
