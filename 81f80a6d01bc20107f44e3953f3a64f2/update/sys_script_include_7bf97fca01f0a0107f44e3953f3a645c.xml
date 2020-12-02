@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_cdltd_car_hire.Multiply</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>Multiply</name>
+        <script><![CDATA[function Multiply(a,b){
+	var c=a*b;
+	return c;
+}]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-02 09:28:50</sys_created_on>
+        <sys_id>7bf97fca01f0a0107f44e3953f3a645c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Multiply</sys_name>
+        <sys_package display_value="Car Hire Management" source="x_cdltd_car_hire">81f80a6d01bc20107f44e3953f3a64f2</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Car Hire Management">81f80a6d01bc20107f44e3953f3a64f2</sys_scope>
+        <sys_update_name>sys_script_include_7bf97fca01f0a0107f44e3953f3a645c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-02 09:28:50</sys_updated_on>
+    </sys_script_include>
+</record_update>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties_category_m2m">
+    <sys_properties_category_m2m action="INSERT_OR_UPDATE">
+        <category display_value="Car Hire Management">fe87884e01f860107f44e3953f3a64e0</category>
+        <order>200</order>
+        <property display_value="x_cdltd_car_hire.pickup.time" name="x_cdltd_car_hire.pickup.time">2ea70c4e01f860107f44e3953f3a6462</property>
+        <sys_class_name>sys_properties_category_m2m</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-01 15:55:44</sys_created_on>
+        <sys_id>6629888e01f860107f44e3953f3a64ae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_cdltd_car_hire.pickup.time.Car Hire Management</sys_name>
+        <sys_package display_value="Car Hire Management" source="x_cdltd_car_hire">81f80a6d01bc20107f44e3953f3a64f2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Car Hire Management">81f80a6d01bc20107f44e3953f3a64f2</sys_scope>
+        <sys_update_name>sys_properties_category_m2m_6629888e01f860107f44e3953f3a64ae</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-01 15:55:44</sys_updated_on>
+    </sys_properties_category_m2m>
+</record_update>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Car" max_length="40" name="x_cdltd_car_hire_car" type="collection">
+        <element choice="1" label="Availablity" max_length="40" name="availablity" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Available" sequence="0" value="available"/>
+                <element inactive_on_update="false" label="In-maintenance" sequence="1" value="in-maintenance"/>
+            </choice>
+        </element>
+        <element choice="1" choice_field="brand_name" choice_table="x_cdltd_car_hire_car_hire" label="Brand Name" max_length="40" name="brand_name" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="BMW" sequence="0" value="bmw"/>
+                <element inactive_on_update="false" label="Volkswagen" sequence="1" value="volkswagen"/>
+                <element inactive_on_update="false" label="Hyundai" sequence="2" value="hyundai"/>
+            </choice>
+        </element>
+        <element choice="3" choice_field="car_name" choice_table="x_cdltd_car_hire_car_hire" display="true" label="Car Name" max_length="40" name="car_name" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="-- New choice --" value="-- New choice --"/>
+            </choice>
+        </element>
+        <element choice="1" label="Car type" max_length="40" name="car_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Sedan" sequence="0" value="Sedan"/>
+                <element inactive_on_update="false" label="SUV" sequence="1" value="SUV"/>
+                <element inactive_on_update="false" label="Hatchback" sequence="2" value="Hatchback"/>
+            </choice>
+        </element>
+        <element label="Color" max_length="40" name="color" type="color"/>
+        <element choice="1" label="Fuel Type" max_length="40" name="fuel_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Diesel" sequence="0" value="diesel"/>
+                <element inactive="true" inactive_on_update="true" label="Pertrol" sequence="0" value="pertrol"/>
+                <element inactive_on_update="false" label="Petrol" sequence="1" value="Petrol"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Registration Number" max_length="40" name="registration_number" type="string"/>
+    </element>
+</database>
